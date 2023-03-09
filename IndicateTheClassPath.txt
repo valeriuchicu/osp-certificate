@@ -1,0 +1,33 @@
+
+
+javac -cp . org/certification/chaptertwo/*.java
+
+
+javac -cp C:\Users\vchicu\AllLocalProjects\OSP-17_1Z0-829\src\main\java\org\certification\chapterone
+
+
+javac -d classes src/main/java/org/certification/chapterone/HelloWorld.java
+
+javac -d classes src/main/java/org/certification/chaptertwo/Padlock2.java
+
+
+Ca sa rulezi cmmanda de mai jos eu ma aflu in :
+C:\Users\vchicu\AllLocalProjects\OSP-17_1Z0-829\src\main\java\org\certification\chaptertwo>
+explicatii:
+Toate filurile.class se vor salva in:
+-d C:/Users/vchicu/AllLocalProjects/OSP-17_1Z0-829/classes
+
+CLASSPATH adica de unde se fac toate importurile din proect sunt in:
+-cp C:/Users/vchicu/AllLocalProjects/OSP-17_1Z0-829/classes
+
+Compilation:
+-d option to specify the base directory of the compiled classes, i.e., "classes" = -d C:/Users/vchicu/AllLocalProjects/OSP-17_1Z0-829/classes
+-cp option to specify the classpath -cp C:/Users/vchicu/AllLocalProjects/OSP-17_1Z0-829/classes
+
+javac -d C:/Users/vchicu/AllLocalProjects/OSP-17_1Z0-829/classes -cp C:/Users/vchicu/AllLocalProjects/OSP-17_1Z0-829/classes Padlock2.java
+
+
+
+Ca sa rulezi Padlock2.class facem:
+
+java -cp C:/Users/vchicu/AllLocalProjects/OSP-17_1Z0-829/classes org.certification.chaptertwo.Padlock2
